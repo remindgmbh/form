@@ -21,3 +21,16 @@ prototypes:
                 100:
                   value: image/bmp
                   label: formEditor.elements.ImageUpload.editor.allowedMimeTypes.bmp
+          propertyCollections:
+            validators:
+              10:
+                editors:
+                  400:
+                    identifier: validationErrorMessage
+                    templateName: Inspector-ValidationErrorMessageEditor
+                    label: formEditor.elements.TextMixin.validators.Alphanumeric.editor.validationErrorMessage.label
+                    fieldExplanationText: formEditor.elements.TextMixin.validators.Alphanumeric.editor.validationErrorMessage.fieldExplanationText
+                    errorCodes:
+                      10: 1505305752
+                      20: 1505305753
+                    propertyPath: properties.validationErrorMessages
