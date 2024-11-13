@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:rmnd_form/Resources/Private/Language/locallang.xlf" product-name="rmnd_form">
+        <header/>
+        <body>
+            <trans-unit id="formEditor.elements.FileUpload.editor.multiple.label">
+                <source>Multiple</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

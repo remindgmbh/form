@@ -1,0 +1,15 @@
+plugin.tx_form {
+    settings {
+        yamlConfigurations {
+            1731425366 = EXT:rmnd_form/Configuration/Yaml/FormSetup.yaml
+        }
+    }
+}
+
+module.tx_form {
+    settings {
+        yamlConfigurations {
+            1731425366 = EXT:rmnd_form/Configuration/Yaml/FormSetup.yaml
+        }
+    }
+}

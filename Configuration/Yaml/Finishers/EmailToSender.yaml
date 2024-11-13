@@ -1,0 +1,5 @@
+prototypes:
+  standard:
+    finishersDefinition:
+      EmailToSender:
+        implementationClassName: Remind\Form\Domain\Finishers\EmailFinisher

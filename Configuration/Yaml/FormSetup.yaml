@@ -1,0 +1,15 @@
+imports:
+  - { resource: "./FormElements/FileUpload.yaml" }
+  - { resource: "./FormElements/ImageUpload.yaml" }
+
+  - { resource: "./Finishers/EmailToSender.yaml" }
+  - { resource: "./Finishers/EmailToReceiver.yaml" }
+
+prototypes:
+  standard:
+    formEditor:
+      translationFiles:
+        1731478859: "EXT:rmnd_form/Resources/Private/Language/locallang.xlf"
+    formEngine:
+      translationFiles:
+        1731478859: "EXT:rmnd_form/Resources/Private/Language/locallang.xlf"

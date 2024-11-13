@@ -1,0 +1,23 @@
+prototypes:
+  standard:
+    formElementsDefinition:
+      FileUpload:
+        formEditor:
+          editors:
+            299:
+              identifier: multiple
+              templateName: Inspector-CheckboxEditor
+              label: formEditor.elements.FileUpload.editor.multiple.label
+              propertyPath: properties.multiple
+            # Add Mime Types from ImageUpload Element
+            300:
+              selectOptions:
+                80:
+                  value: image/jpeg
+                  label: formEditor.elements.ImageUpload.editor.allowedMimeTypes.jpg
+                90:
+                  value: image/png
+                  label: formEditor.elements.ImageUpload.editor.allowedMimeTypes.png
+                100:
+                  value: image/bmp
+                  label: formEditor.elements.ImageUpload.editor.allowedMimeTypes.bmp

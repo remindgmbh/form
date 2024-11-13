@@ -1,0 +1,4 @@
+prototypes:
+  standard:
+    formElementsDefinition:
+      ImageUpload: null
