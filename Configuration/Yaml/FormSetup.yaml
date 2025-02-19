@@ -8,6 +8,11 @@ imports:
 prototypes:
   standard:
     formEditor:
+      dynamicJavaScriptModules:
+        additionalViewModelModules:
+          1729578876: '@remind/form/backend/form-editor/view-model.js'
+      formEditorPartials:
+        Inspector-FormElementsMultiSelectEditor: 'Inspector/MultiSelectEditor'
       translationFiles:
         1731478859: "EXT:rmnd_form/Resources/Private/Language/locallang.xlf"
     formEngine:
