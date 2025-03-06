@@ -21,7 +21,7 @@ class MultiUploadedFileReferenceConverter extends AbstractTypeConverter
 
     /**
      * @param mixed[] $convertedChildProperties
-     * @return \TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder[]|Error|null
+     * @return array<\TYPO3\CMS\Core\Resource\File|\TYPO3\CMS\Core\Resource\Folder|\TYPO3\CMS\Extbase\Domain\Model\FileReference>|Error|null
      */
     public function convertFrom(
         mixed $source,
